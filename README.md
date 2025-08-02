@@ -1,33 +1,52 @@
 # 📂 public/
 
-This folder contains **polished tools, prompts, and systems** that are clean enough to share, clone, or deploy. These builds are functional, documented, and version-controlled.
+Welcome to the public layer of the VisionForge4D system.
 
-## ✅ What Goes Here
+This repository houses polished tools, prompts, and systems that are clean enough to share, clone, or build upon. Everything here has been through the forge — refined, tested, and structured for real-world use.
 
-- AI tools, scripts, or prompts that are reusable
-- Design systems or workflows that have matured past experimentation
-- Readme-rich mini repos you’d feel confident linking in a portfolio, Gumroad, or GitHub showcase
+---
 
-## 🧱 Structure Guidelines
+## ✅ What You'll Find
 
-Each project should include:
+- **AI workflows** designed for creative, legal, or operational use
+- **Reusable GPT prompt packs** with clear utility
+- **System design kits** that blend cognition, aesthetics, and automation
+- **Minimal-dependency builds** you can spin up fast
 
-- `README.md` — clear what it does + how to use it
-- Clean folder layout (no temp files, unfinished drafts)
-- Version tags or changelogs (if needed)
-- Minimal dependencies or a clear install/setup script
+Each module or sub-repo follows these standards:
 
-## 🧭 Examples (Planned or Future)
+- A `README.md` explaining purpose and usage
+- Clear folder structure — no temp files or half-finished drafts
+- Version tags or changelogs where appropriate
+
+---
+
+## 🧭 Sample Modules (or What’s Coming Soon)
 
 - `prompt-pack-v1/`: Reusable GPT templates
-- `ritual-audit-kit/`: PDF + markdown version of the Ritualware diagnostic
-- `visionforge-tier1/`: Shareable system seeds for personal operating models
+- `ritual-audit-kit/`: Markdown + PDF version of the Ritualware diagnostic
+- `visionforge-tier1/`: Personal operating system starter pack
 
-## 🚦 Promotion Criteria
+---
 
-Only promote to `public/` when:
-- It has a README
-- It runs, renders, or ships without manual babysitting
-- You wouldn’t be embarrassed if a stranger cloned it and used it
+## 🛡 License & Use
 
-If in doubt, leave it in `lab/` until it’s solid.
+Each tool or folder contains its own license (MIT, CC-BY, etc). Unless stated otherwise:
+
+> You’re welcome to clone, study, and build on these — attribution is appreciated. For commercial use or deeper collaboration, [reach out](VisionForge@gmail.com).
+
+---
+
+## 🧱 Curation Criteria
+
+Only tools that are:
+- Functional and documented
+- Easy to set up
+- Mature enough to deploy or teach from
+
+...are promoted to this layer. This repo isn’t a lab — it’s a launchpad.
+
+---
+
+VisionForge4D is about building systems that **serve people** — creative, technical, intentional. This public folder is one piece of that vision.
+
