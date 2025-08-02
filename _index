@@ -1,0 +1,29 @@
+# 📢 Public Release Log
+
+This is a running list of tools, prompts, and systems released from `lab/` into the world. Every entry represents something that shipped — and is clean enough to clone, study, or use.
+
+---
+
+## ✴️ Format
+
+[tool-name or folder]
+
+Released: YYYY-MM-DD
+
+Version: v1.0.0 (or custom tag)
+
+What It Does: 1–2 line description
+
+Link: ./folder-name/ or Gumroad/product link
+
+Notes: (Optional context, update path, etc.)
+
+---
+
+## 📦 Shipped
+
+
+---
+
+## ⏳ Upcoming
+
