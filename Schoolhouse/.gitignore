@@ -1,0 +1,16 @@
+# System files
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
+
+# Python junk
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Outputs folder (skip this from tracking)
+outputs/
