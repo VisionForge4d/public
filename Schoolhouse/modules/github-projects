@@ -1,0 +1,108 @@
+---
+title: 🎓 Schoolhouse Module — GitHub Projects as Dev OS  
+date: 2025-08-05  
+tags: [#github, #workflow, #project-management, #ops-system]  
+linked_docs: [git-primer.md, github-projects-tasks.md, automation-examples.md]  
+---
+
+# 🎓 Schoolhouse Module — GitHub Projects as Dev OS
+
+> “Your GitHub Project board isn’t a todo list — it’s your operational map. Treat it like a cockpit.”
+
+---
+
+## 🎯 Learning Outcome
+
+By the end of this module, students will:
+- Understand how to use GitHub Projects to manage multi-repo workflows  
+- Structure Projects for solo or team-based build systems  
+- Build automations that reduce manual work and increase execution velocity
+
+---
+
+## 🧱 Learning Blocks
+
+---
+
+### 🧠 1. GitHub Projects ≠ Kanban
+
+**Definition:**  
+GitHub Projects is not just Trello inside GitHub.  
+It’s a **linked, filterable, automatable workspace** tied directly to issues, pull requests, and repos.
+
+**Core Pillars:**
+- Data-first board: Each card is a live object, not a sticky note
+- Multi-repo views: You can track progress across several projects
+- Auto-updating fields: Link status to PRs, commits, checkboxes, etc.
+
+**Common Use Cases:**
+- Coordinating drops across VisionForge, VibeLegal, Ritualware
+- Visualizing multi-sprint product roadmaps
+- Automating “when PR merged → move to Done”
+
+---
+
+### 🔍 2. Columns, Fields, Filters, and Views
+
+| Feature | Purpose | Best Practice |
+|--------|---------|---------------|
+| **Columns** | Workflow stages (To Do, In Progress, Done) | Keep it 3–5 max — avoid bloat |
+| **Fields** | Priority, Type, Status, Assignee | Use consistent labels and emojis if needed |
+| **Views** | Save filtered views (e.g. `@me`, `High Priority`) | Create different dashboards per team member |
+| **Automation** | Move items, update status, trigger events | Always link status to real activity (not just drag-drop) |
+
+**Insight:**  
+Don’t make your Project board into homework. It should reflect actual work in motion.
+
+---
+
+### 🛠️ 3. Practical Application / Ritual UX
+
+#### ⚙️ Setup Your Solo Operator GitHub Project
+
+1. **Create a GitHub Project** (type: *table* or *board*)  
+   - Title: `VisionForge4D — Ops System`
+   - Scope: `Public` or `Private`, tie to your org/repo group
+
+2. **Add Fields**:
+   - 📌 `Status`: To Do, In Progress, Blocked, Done  
+   - 🏷️ `Type`: Feature, Fix, Prompt, Infra  
+   - 🔥 `Priority`: High, Medium, Low  
+   - 👤 `Assignee`: You or your collaborators  
+   - 🧩 `Repo`: Pull from across multiple sources (e.g. vibelegal, ritualware)
+
+3. **Column Logic (Board View)**:
+   - `📋 Inbox`: New issues and thoughts  
+   - `🔨 In Progress`: Active builds  
+   - `🧪 Review`: Awaiting test, QA, or feedback  
+   - `✅ Done`: Shipped
+
+4. **Automate Actions**:
+   - `When PR closed → move to Done`  
+   - `When new issue added → drop into Inbox`  
+   - `Status = Done → Auto-archive after 7 days`
+
+---
+
+#### 🧭 Weekly Ritual (Solo Operator or Team)
+
+- 🧠 **Monday Planning (15 min)**  
+  → Sort issues into phases, assign priorities, and trim the board
+
+- 🔁 **Daily Sync (5 min)**  
+  → Move cards, log blockers, link new PRs/issues to cards
+
+- 📦 **Friday Ship + Review (30 min)**  
+  → Archive done cards, review project logs, set up next week’s arcs
+
+---
+
+## ✏️ Practice Prompt (Tutor Mode)
+
+```prompt
+Act as a senior product operator.  
+Help the user create a GitHub Project board to manage 3 repos:  
+one for a web app, one for prompt tools, and one for marketing content.  
+Assign fields, automation rules, and weekly review rituals that keep the project  
+in flow while minimizing overhead.  
+Guide the user to create filtered views and link issues to commits.

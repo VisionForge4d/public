@@ -1,0 +1,122 @@
+---
+title: 🎓 Schoolhouse Module — GitHub Fundamentals & Culture  
+date: 2025-08-05  
+tags: [#github, #dev-ops, #open-source, #version-control]  
+linked_docs: [git-primer.md, open-source-manifesto.md]  
+---
+
+# 🎓 Schoolhouse Module — GitHub Fundamentals & Culture
+
+> “GitHub isn’t just a code platform — it’s where builders show their work, shape the future, and share the forge.”
+
+---
+
+## 🎯 Learning Outcome
+
+By the end of this module, students will:
+- Understand GitHub as a **version control and collaboration system**  
+- Learn the key terminology, habits, and etiquette of GitHub use  
+- Grasp the values behind open-source development and its impact on the dev world
+
+---
+
+## 🧱 Learning Blocks
+
+---
+
+### 🧠 1. What Is GitHub, Really?
+
+**Definition:**  
+GitHub is a platform for version-controlled project development. But more than that, it's the **global infrastructure for digital builders** — a public ledger of work, reputation, and shared progress.
+
+**Core Functions:**
+- Store and track code changes over time
+- Collaborate with others using forks, branches, pull requests
+- Showcase your work, build community, or work in private
+
+**GitHub =** Resume + Workspace + OS for the modern builder.
+
+---
+
+### 📘 2. GitHub Glossary for New Builders
+
+| Term | Meaning | Example |
+|------|--------|---------|
+| `Repo` | A project folder on GitHub | `visionforge4d/ritualware`  
+| `Commit` | A snapshot of changes | “Added authentication logic”  
+| `Branch` | A separate line of development | `feature/login-ui`  
+| `Pull Request (PR)` | A proposed change to merge into main | “Please review and merge this feature”  
+| `Issue` | A task, bug, or idea | “Bug: Page not loading on mobile”  
+| `Fork` | A copy of a repo you can edit freely | Fork a tool to customize for your stack  
+| `Clone` | Download the repo locally | `git clone https://github.com/user/repo.git`  
+| `Merge` | Combine changes into main code | “Merged the PR after review”  
+| `README` | Intro doc in a repo | First thing people see — your mission, how to use  
+| `Main` | The main branch (used to be `master`) | Where your production-ready code lives  
+
+---
+
+### 🌍 3. The Culture of Open Source
+
+**Open Source Isn’t Charity — It’s Leverage.**
+
+**Core Values:**
+- 💡 Transparency: Anyone can inspect, learn, and improve  
+- 🧠 Collaboration: The best code grows through dialogue  
+- 🧱 Modularity: Reuse what works, improve what doesn’t  
+- 🎖️ Reputation: Your commits are public proof of skill  
+- 🕸️ Network: Every star, fork, or PR builds real-world connection
+
+**“Source code is the new portfolio.”**
+
+---
+
+### 🛠️ 4. Practical Application / Ritual UX
+
+#### 🧰 Daily Developer Ritual (Beginner to Intermediate)
+
+- 🛫 `git pull` before you start — sync with the latest changes  
+- 🔨 Make progress → `git add .`, `git commit -m "what you did"`  
+- 🚀 Push it up: `git push`  
+- 🧠 Log it: open an `Issue` or update your GitHub Project card  
+- 🤝 If team-based: open a **PR**, request review, and resolve feedback
+
+---
+
+#### ✍️ Example Git Commit Messages
+
+- ✅ `feat: added user login flow`  
+- 🐛 `fix: resolved mobile header bug on iOS`  
+- 🧹 `refactor: cleaned up CSS naming conventions`  
+- 📄 `docs: added setup instructions to README`
+
+> 🔁 Tip: Follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) style — it helps everyone (and your future self).
+
+---
+
+## ✏️ Practice Prompt (Tutor Mode)
+
+```prompt
+Act as a GitHub onboarding coach.  
+Help the user understand how to fork, clone, make a commit, push to a branch,  
+and open a pull request.  
+Explain each step with clear commands, reasoning, and links to where that  
+action shows up visually in the GitHub interface.  
+Include 1 cultural insight about open source contribution.
+
+🔥 Bonus — Why GitHub Is Dope
+🔍 Transparency = Instant trust
+
+🌐 Collaboration = Global reach
+
+🏗️ Modularity = Infinite remixing
+
+📈 Contributions = Career capital
+
+🧰 Infinite free tools, themes, starter kits, codebases
+
+🎓 Learn by doing, reviewing, and contributing to real-world projects
+
+🪐 GitHub = Where Modern Builders Live
+If you’re not on GitHub, you’re building in a vacuum.
+If you are — use it like a living system, not a backup folder.
+

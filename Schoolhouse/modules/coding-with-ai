@@ -1,0 +1,101 @@
+---
+title: 🎓 Schoolhouse Module — Coding with AI  
+date: 2025-08-05  
+tags: [#ai-coding, #software-architecture, #vibe-coding]  
+linked_docs: [vibelegal-architecture.md, prompt-engine-blueprint.md]  
+---
+
+# 🎓 Schoolhouse Module — Coding with AI
+
+> “Code is no longer written alone. It’s drafted, shaped, and refined by conversation.”
+
+---
+
+## 🎯 Learning Outcome
+
+By the end of this module, students will:
+- Learn to approach coding as a dialogue with AI, not a monologue with syntax
+- Gain prompt templates for generating plans, components, and error correction
+- Be able to structure coding tasks into modular, AI-collaborative workflows
+
+---
+
+## 🧱 Learning Blocks
+
+---
+
+### 🧠 1. Shift from Typing to Structuring
+
+**Definition:**  
+AI-native development reframes coding from brute typing → into intelligent structuring. Your job is to *frame*, *guide*, and *debug the blueprint.*
+
+**Core Ideas:**
+- You aren’t telling the AI *what to code*, you’re telling it *how to think*.
+- Every problem can be turned into a prompt structure.
+- Clarity beats cleverness.
+
+**Common Triggers / Use Cases:**  
+- Starting a new feature → Use an **architecture prompt**
+- Confused by your own logic → Use a **debug prompt**
+- Need boilerplate → Use a **scaffold prompt**
+
+---
+
+### 🔍 2. Prompt Patterns for Dev Work
+
+**Core Prompts for Vibe Coding:**
+
+| Example Prompt | Trigger | Fix / Insight |
+|----------------|---------|---------------|
+| “Plan a backend structure for a contract generator using PostgreSQL + Express.” | Starting fresh with vague goals | Use **tech stack clarity** and **function-based framing** |
+| “Refactor this function to improve readability and reuse.” | Working with messy or duplicate code | Ask for **principles** (DRY, SOLID) and refactor **with commentary** |
+| “Here’s my error output. What is the likely cause and fix?” | Unclear error in logs | Don’t just paste the error — give **file context** and a **minimal reproducible code** |
+
+**Note:** AI is not your code monkey. It's your dev partner.
+
+---
+
+### 🛠️ 3. Practical Application / Ritual UX
+
+#### 🧰 Toolkit / Prompts:
+
+- **📦 Plan It Out (Architecture Prompt):**
+  ```prompt
+  Act as a full-stack engineer.  
+  Given a project to [build X], using [stack], generate a modular file/folder plan with rationale.  
+  Include any reusable component patterns or database tables.
+
+⚙️ Generate a Feature (Scaffold Prompt):
+
+I’m building [feature].  
+Use [framework/language]. Generate the code for this component with [state logic, UI behavior, or API route].  
+Include brief comments for each block.
+
+🧹 Clean It Up (Refactor Prompt):
+
+Here's a function that works but is messy.  
+Refactor it for clarity, maintainability, and testability.  
+Tell me why you made the changes.
+
+🛠️ Debug Assist:
+
+Here's the error + the surrounding code.  
+What is the likely cause? Suggest 2 possible fixes.  
+Be clear about what part of the code is failing and why.
+
+✨ UX Framing Tips:
+Always give the AI the why behind the request.
+
+Use roles ("Act as a backend dev...") to access deeper logic trees.
+
+When stuck, zoom out → then zoom in. Ask for: Plan → Scaffold → Code
+
+✏️ Practice Prompt (Tutor Mode)
+
+Act as a senior AI-integrated software engineer.  
+Given a project to build a contract generator web app using PostgreSQL and Express,  
+help the user generate a file/folder architecture plan, outline the key API routes,  
+and suggest where AI can assist in code generation and debugging.  
+Include rationale for each major design decision.  
+If the user's input is vague, guide them with clarifying questions.
+

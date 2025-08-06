@@ -1,0 +1,114 @@
+---
+title: 🎓 Schoolhouse Module — Multiplying the Force  
+date: 2025-08-05  
+tags: [#collaboration, #ai-agents, #prompt-ops, #team-systems]  
+linked_docs: [visionforge-agent-map.md, agent-briefing-template.md, squad-stack.md]  
+---
+
+# 🎓 Schoolhouse Module — Multiplying the Force
+
+> “You’re not alone. The real advantage is building a force multiplier network — human or AI — where every unit amplifies the mission.”
+
+---
+
+## 🎯 Learning Outcome
+
+By the end of this module, students will:
+- Learn how to structure collaborative workflows between people and AI agents  
+- Design team operating models where each human and AI runs a different stack  
+- Build task-sharding rituals that boost velocity without chaos
+
+---
+
+## 🧱 Learning Blocks
+
+---
+
+### 🧠 1. Force Multiplication ≠ Doing More, It’s Doing Smarter
+
+**Definition:**  
+Force multiplication means each added team member (human or agent) increases overall **throughput and sharpness** — not just output volume.
+
+**Core Pillars:**
+- Role clarity: Each node (human or AI) has a **defined objective lens**
+- Parallelism: The system supports **concurrent tasks** with minimal overlap
+- Stack specialization: Each AI instance runs a **distinct behavioral loadout**
+
+**Use Cases:**
+- Human-AI collab teams building products or writing books
+- Multi-agent flows (Claude for planning, GPT for synthesis, Groq for eval)
+- Distributed squads: each person runs a different GPT Persona (editor, strategist, dev)
+
+---
+
+### 🔍 2. Agent Stacks, Human Roles
+
+| Role / Agent | Primary Action | Stack Focus | Example Prompt |
+|--------------|----------------|-------------|----------------|
+| 🧠 Strategist | Break down goals into modular plans | VisionForge + Claude | “Split this product into 4 launch arcs.”  
+| 🧰 Engineer | Convert tasks to architecture + code | GPT-4o + Groq | “Build the Express API with token-aware routes.”  
+| 📐 Designer | UX, visual flows, aesthetics | DALL·E / Midjourney / GPT-4 | “Sketch a mobile onboarding flow with alt states.”  
+| 🧾 Editor | Refine, synthesize, rewrite | Claude / Gemini | “Rewrite this section to match the tone and structure.”  
+| 🔍 Evaluator | Test for quality, logic, bias | Groq / Mixtral | “Does this feature logic follow user flow assumptions?”  
+
+**Insight:**  
+Don’t ask *one* agent to be everything.  
+Assign each its job — like a team of elite tools — and keep their context clean.
+
+---
+
+### 🛠️ 3. Practical Application / Ritual UX
+
+#### 🧪 Step 1: Set Up a Squad Stack
+
+Build your **Squad Map**:
+
+- **You:** Mission owner → sets the shared vision  
+- **Agent 1:** Architecture Agent → builds plans & folder structures  
+- **Agent 2:** Prompt Smith → crafts reusable tools + UX phrasing  
+- **Agent 3:** Critique Bot → tests logic and makes suggestions  
+- **Agent 4:** Builder → generates the code or document  
+- **Agent 5:** Reviewer → checks against spec, brand, tone
+
+*Optional:* Each human team member uses a different GPT with their own specialty prompts.
+
+---
+
+#### 📦 Step 2: Use Handoff Anchors
+
+To avoid chaos, **standardize handoff prompts** between roles or agents:
+
+- 🔗 Plan → Build:
+  ```prompt
+  Here’s the feature plan.  
+  Convert it to scaffolded folder structure with key files.  
+  Mark TBD areas with comments.
+
+🔗 Build → QA:
+
+Review this component.  
+Does it match the original plan? Are there hidden assumptions?
+
+🔗 Draft → Rewrite:
+
+Rewrite this text to improve clarity, reduce redundancy,  
+and align with our brand tone. Justify major changes.
+
+🔄 Step 3: Sync Rituals (Daily or Weekly)
+Implement a lightweight squad ritual (solo or group):
+
+🌐 Stand-in-Thread: Share your agent's outputs into a central log
+
+✅ Clear Blockers: List what your AI agent got wrong / right
+
+🔄 Cycle Feedback: Each agent or human reviews one other output
+
+🧭 Resync Mission: Weekly or post-drop → review what stacked and what didn’t
+
+
+Act as a team strategist designing a human + AI collaboration system.  
+You have 3 people (writer, dev, designer) and 3 AIs (planner, builder, QA).  
+Design a weekly operating rhythm, assign roles, and describe how prompt handoffs  
+will occur to minimize confusion and maximize parallel output.  
+Include prompts each agent should use, and how work will be reviewed.
+

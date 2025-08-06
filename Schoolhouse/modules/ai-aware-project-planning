@@ -1,0 +1,108 @@
+---
+title: 🎓 Schoolhouse Module — AI-Aware Project Planning  
+date: 2025-08-05  
+tags: [#ai-planning, #prompt-engineering, #project-architecture]  
+linked_docs: [prompt-stack-guide.md, token-limits-cheatsheet.md, architecture-arcs.md]  
+---
+
+# 🎓 Schoolhouse Module — AI-Aware Project Planning
+
+> “You don’t ask AI to build the tower. You ask it to help lay the bricks — one strategic block at a time.”
+
+---
+
+## 🎯 Learning Outcome
+
+By the end of this module, students will:
+- Learn how to plan projects with LLM behavior, token limits, and prompt memory in mind  
+- Gain tactics for building modular prompt stacks before writing any code  
+- Be able to architect multi-phase projects that stack value while reducing model confusion
+
+---
+
+## 🧱 Learning Blocks
+
+---
+
+### 🧠 1. Planning for Token Drift & Model Forgetting
+
+**Definition:**  
+LLMs operate within *bounded attention*. Token limits create **cognitive amnesia** over long sessions or complex instructions. Planning must respect these constraints, not fight them.
+
+**Core Ideas:**
+- Every model has a short-term memory cap (4k, 8k, 32k, etc.) — beyond that, coherence drops.
+- Repetitive context = wasted tokens. Structure reusables early.
+- The more recent, relevant, and clean your prompt is → the sharper the output.
+
+**Common Triggers / Use Cases:**  
+- Long threads with bloated memory  
+- Confused responses after multiple follow-ups  
+- Unexpected “drift” in tone, detail, or logic
+
+---
+
+### 🔍 2. Prompt Stack Design Before Execution
+
+**Principle:**  
+*Design your prompt infrastructure before deploying your build cycle.* Treat prompts as tools in a tactical loadout.
+
+| Layer | Purpose | Example Prompt |
+|-------|---------|----------------|
+| 🔧 Tool Layer | Utility actions | “Generate a file/folder structure for X”  
+| 🧠 Mindset Layer | Identity + framing | “Act as a product architect. I need…”  
+| 🔁 Feedback Layer | QA + iteration | “Review this plan for gaps in logic or assumptions.”  
+| 🧱 Structural Layer | Assembly logic | “Split this project into 4 milestone-based arcs.”  
+
+**Prompt Engineering Insight:**  
+A great output depends more on *sequencing and role framing* than pure length or clever words.
+
+---
+
+### 🛠️ 3. Practical Application / Ritual UX
+
+#### 📅 Scheduling Prompts (Don’t Do It All At Once)
+
+Instead of:
+> “Build me the full stack web app with auth, DB, payment, and docs…”
+
+Break it into **time-boxed sessions**:
+
+1. 🧭 **Planning Session**
+   ```prompt
+   Act as a technical product planner.  
+   Given a goal to build [X], map the build into 3–5 milestone phases.  
+   Identify dependencies, blockers, and token-aware chunking.
+
+2.🧰 Scaffold Session
+
+For Phase 1 (from above), generate a file/folder structure with rationale.  
+Don’t generate any code — just the layout and notes.
+
+3. 🧱 Component Builder
+
+Pick a single component from Phase 1 and generate clean, commented code.  
+Assume no memory of prior outputs. Include the dependencies up top.
+
+4.🧽 Refactor Session
+
+Review this component for structure, best practices, and testability.  
+Suggest improvements or refactor options with clarity.
+
+
+⚙️ UX Deployment Tips
+Treat prompts like API endpoints — they do one thing well.
+
+Always keep prompt stacks reusable. Store them.
+
+Use versioning logic: prompt.plan.v1, prompt.refactor.v2, etc.
+
+When in doubt: Prompt → Plan → Execute → QA → Repeat
+
+✏️ Practice Prompt (Tutor Mode)
+
+Act as a strategic AI system planner.  
+Given a goal to launch a modular contract generation tool,  
+break the work into 3–5 phases, considering AI prompt design, token limits,  
+user interaction flow, and component architecture.  
+Highlight where prompts should be reused, what each phase outputs,  
+and how to avoid overloading the model or losing coherence.

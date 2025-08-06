@@ -1,0 +1,109 @@
+---
+title: 🎓 Schoolhouse Module — Blender Intro for Builders  
+date: 2025-08-05  
+tags: [#blender, #3d-design, #creative-tools, #indie-animation]  
+linked_docs: [asset-workflow-guide.md, fountain-scene-notes.md]  
+---
+
+# 🎓 Schoolhouse Module — Blender Intro for Builders
+
+> “You don’t need to master Blender. You need to master momentum in Blender.”
+
+---
+
+## 🎯 Learning Outcome
+
+By the end of this module, students will:
+- Understand Blender as a modular creative tool — not a monolith  
+- Learn the core layout, tool sets, and save workflow  
+- Be able to model simple objects, set a camera, and export a scene
+
+---
+
+## 🧱 Learning Blocks
+
+---
+
+### 🧠 1. Blender Isn’t Hard — It’s Deep
+
+**Definition:**  
+Blender is a free, open-source 3D creation suite. It handles **modeling, sculpting, animation, lighting, texturing, rendering**, and more — but you only need a few of these to get going.
+
+**Beginner Success Principle:**  
+> You only need to master 3–5 tools to tell a story.
+
+**Common Use Cases:**  
+- Modeling boats, buildings, or props  
+- Setting emotional tone with light and camera  
+- Creating stylized scenes for indie storytelling  
+- Simulating natural environments (water, fog, grass)
+
+---
+
+### 🔍 2. Core Vocabulary
+
+| Term | What It Means | What It’s For |
+|------|---------------|---------------|
+| `Object Mode` | Move, scale, rotate whole objects | Placing items in the scene  
+| `Edit Mode` | Modify vertices/edges/faces | Modeling shapes  
+| `Modifier` | Procedural changes (non-destructive) | Subsurf, mirror, bevel  
+| `Material` | Surface properties (color, roughness) | Making things look real/fake  
+| `Shader` | Under-the-hood material logic | Used with `Shader Editor`  
+| `Camera` | Point of view for the render | Where your “viewer” sits  
+| `Light` | Scene illumination | Key to mood and visibility  
+| `Render` | Final output image/animation | What you export/share  
+
+---
+
+### 🛠️ 3. Practical Application / Ritual UX
+
+#### 🚀 Your First Blender Ritual
+
+1. **Open Blender → General Scene**
+2. `Shift + A` → Add a Mesh → Cube/Sphere/etc.  
+3. `Tab` → Edit Mode → Select face/edge/vertex → Move (`G`), Scale (`S`), Rotate (`R`)  
+4. `Ctrl + A` → Apply scale after edits  
+5. Add a **Camera** → Align it with view → `Ctrl + Alt + Numpad 0`  
+6. Add **Lighting** → Point light or HDRI  
+7. Set Material → Base Color, Roughness  
+8. `F12` → Render Image  
+9. `Image → Save As...` → Export final frame
+
+---
+
+#### ♻️ Reusable Asset Tips
+
+- Save objects as **.blend files** with named collections  
+- Use **linked assets** for reusable props (boats, tools, foliage)  
+- Use **Asset Browser** for drag-and-drop workflows  
+- Label materials and modifiers cleanly for future use
+
+---
+
+### 🎨 Bonus: Expressive Touches for Scene Mood
+
+| Element | Tip |
+|--------|-----|
+| **Camera Movement** | Use slow dolly/pan → Emotional gravity  
+| **Lighting** | Soft area lights for atmosphere → Use color temperature  
+| **Materials** | Low gloss = soft, poetic feel  
+| **Fog/Mist** | Use volumetric shaders or world nodes  
+| **Motion** | Slow animations > fast action for indie tone
+
+---
+
+## ✏️ Practice Prompt (Tutor Mode)
+
+```prompt
+Act as a Blender coach.  
+Help the user create a simple fjord scene with one boat model, fog, and soft lighting.  
+Give step-by-step guidance on building the terrain, placing the camera,  
+and using modifiers or materials to evoke quiet mood.  
+Assume the user knows the basics but not the terminology for visual poetry.
+
+🧠 Reminder for Indie Builders
+You are not building Marvel movies.
+You’re capturing moments. Emotion. Light. Stillness.
+
+Let the Blender stack serve your story — not the other way around.
+
